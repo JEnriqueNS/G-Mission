@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Details_Mission"
+    android:orientation="vertical">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Projet Android"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="25dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Categorie:"
+        android:textSize="30dp"
+        android:layout_marginLeft="25dp"
+        android:textColor="@android:color/darker_gray"/>
+    <TextView
+        android:id="@+id/txt_Categorie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Urgent!!"
+        android:inputType="date"
+        android:textSize="25dp"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="40dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date:"
+        android:textSize="30dp"
+        android:layout_marginLeft="25dp"
+        android:textColor="@android:color/darker_gray"/>
+    <TextView
+        android:id="@+id/txt_Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="21/12/2018"
+        android:inputType="date"
+        android:textSize="25dp"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="40dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description:"
+        android:textSize="30dp"
+        android:layout_marginLeft="25dp"
+        android:textColor="@android:color/darker_gray"/>
+
+    <TextView
+        android:id="@+id/txt_Date"
+        android:layout_width="match_parent"
+        android:layout_height="101dp"
+        android:layout_marginLeft="40dp"
+        android:lines="4"
+        android:maxLines="4"
+        android:text="le projet sera fini ant de noel, les details sont dans le pdf"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:typeface="monospace"
+        android:textAlignment="textStart"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telecharger les fichiers"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="80dp"/>
+
+
+
+</LinearLayout>
